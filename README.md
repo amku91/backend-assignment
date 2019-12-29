@@ -4,7 +4,7 @@
 
 1. We value a **clean**, **simple** working solution.
 2. The application must be run in Docker, candidate must provide `docker-compose.yml` and `start.sh` bash script at the root of the project, which should setup all relevant services/applications.
-3. We prefer Golang, but the solution can also be written in one of the following language/platform: PHP, Node.js.
+3. We prefer Node.js, but the solution can also be written in one of the following language/platform: PHP, Go Lang.
 4. Candidates must submit the project as a git repository (github.com, bitbucket.com, gitlab.com).
 5. Candidates must write unit tests for the endpoints and it would be a strong bonus if also having integration tests.
 6. As we run automated tests on your project, you must comply to the API requirement as stipulated below. You can assume Docker is already installed in the test machine.
@@ -28,7 +28,7 @@
 4. You must use following API to get the distance for the order:
 - Google Maps API (https://cloud.google.com/maps-platform/routes/)
 - **NOTE:** You don't have to provide actual Google Maps API key to us, just describe in the README how to use a custom key with your solution.
-5. A Database must be used (SQL or NoSQL, at Lalamove we use mostly MySQL). The DB installation & initialisation must be done in `start.sh`.
+5. A Database must be used (`Postgre SQL`). The DB installation & initialisation must be done in `start.sh`.
 6. All responses must be in json format no matter in success or failure situations.
 
 
